@@ -73,7 +73,7 @@ module.exports = configure(function (/* ctx */) {
       env: require('dotenv').config().parsed,
       // rawDefine: {}
       // ignorePublicFolder: true,
-      // minify: false,
+      minify: true,
       // polyfillModulePreload: true,
       distDir: '../public',
 
