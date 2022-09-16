@@ -4,7 +4,9 @@
         "v-dev": "vite",
         "v-build": "vite build",
         "laravel-serve": "php artisan serve",
-        "build": "bash build.sh"
+        "build": "bash build.sh",
+        "cache": "bash cache.sh",
+        "install-app": "bash install.sh"
     },
     "devDependencies": {
         "axios": "^0.27",

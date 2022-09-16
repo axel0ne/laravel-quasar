@@ -1,13 +1,9 @@
 cd quasarapp
-quasar build
 npm install
+quasar build
 cd ..
-cp -r ./web/. ./public
 composer install
 npm install
+cp -r ./web/. ./public
 php artisan migrate
-php artisan cache:clear
-php artisan config:cache
-php artisan event:cache
-php artisan route:cache
-php artisan view:cache
+bash cache.sh
