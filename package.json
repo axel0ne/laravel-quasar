@@ -6,7 +6,8 @@
         "laravel-serve": "php artisan serve",
         "build": "bash build.sh",
         "cache": "bash cache.sh",
-        "install-app": "bash install.sh"
+        "install-app": "bash install.sh",
+        "ide-helper": "bash ide-helper.sh"
     },
     "devDependencies": {
         "axios": "^0.27",
