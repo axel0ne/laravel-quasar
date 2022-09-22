@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "dev": "bash dev.sh",
         "v-dev": "vite",
         "v-build": "vite build",
         "laravel-serve": "php artisan serve",
